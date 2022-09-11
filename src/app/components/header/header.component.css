@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+  color: aqua;
+}
+
+.header h2 {
+  margin-left: 10px;
+}
+
+.header div {
+  margin-right: 40px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.header div a {
+  text-decoration: none;
+  padding: 2px;
+  color: blue;
+}
+
+.header div a:hover {
+  border-bottom: 2px solid aqua;
+}

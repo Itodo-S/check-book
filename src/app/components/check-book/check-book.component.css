@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}

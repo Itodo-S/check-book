@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 400px;
+  align-self: center !important;
+
+  border: 1px solid aqua;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: relative;
+
+  background-color: whitesmoke;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: aliceblue;
+}
+
+.card_header p {
+  margin-left: 15px;
+}
+
+.card_header .card_reminder {
+  margin-right: 15px;
+
+  width: 30px;
+  height: 30px;
+
+  padding: 2px;
+  border-radius: 100px;
+
+  border: 5px solid aqua;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_header .card_reminder .checked {
+  background-color: blue;
+  width: 80%;
+  height: 80%;
+  border-radius: 100px;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px dotted aqua;
+  height: 40px;
+  position: relative;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: aqua;
+}

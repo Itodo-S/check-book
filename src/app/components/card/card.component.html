@@ -1,0 +1,19 @@
+<div class="card" *ngFor="let item of items">
+  <div class="card_header">
+    <p>{{ item.title }}</p>
+
+    <div class="card_reminder" (click)="onSetReminder(item)">
+      <div [ngClass]="{ checked: item.checked }"></div>
+    </div>
+  </div>
+
+  <div class="card_content">
+    <p>
+      {{ item.body }}
+    </p>
+  </div>
+
+  <div class="card_footer">
+    <p>Check Book</p>
+  </div>
+</div>
